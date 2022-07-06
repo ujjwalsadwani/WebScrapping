@@ -4,7 +4,7 @@ from alpha_vantage.timeseries import TimeSeries
 import time
 import sys
 
-api_key = "6TB81TGNIUQ7RWG9"
+api_key = "<Your API key>"  # Get your API key from alpha vantage website
 
 series = TimeSeries(key=api_key, output_format="pandas")
 sym = input("Enter the 'SYMBOL' of the Stock:\n")
